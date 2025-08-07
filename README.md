@@ -11,10 +11,14 @@ It offers a beautiful, responsive interface with real-time validation, animated 
 - 📉 Auto fare estimation with instant feedback  
 - 💳 Payment method selection
 - 📃 Animated booking receipt popup with details  
-- 💡 Pulsing and styled buttons for a modern feel  
+- 💡 Pulsing buttons
+- 🎨 Styled buttons  
 - ✅ Input validation
-- ✅ Error handling  
-- 🖼️ Clean and centered layout with branding and tagline  
+- ⚠️ Error Handling  
+- 🧼 Clean layout
+- 🎯 Centered alignment
+- 🏷️ Branding
+- 🗣️ Tagline
 
 ### 🛠️ Tech Stack :--
 
@@ -44,7 +48,7 @@ Upon successful booking, an animated window pops up showing :
 - Payment Method  
 - Timestamp
  
-🎉 "Thank you for booking with us!" message included !
+🎉 " Thank you for booking with us ! " message included !
   
 ❤️ Made with Python and passion for clean design.
 
