@@ -1,10 +1,9 @@
 # 🚆 JourneyJoy  
-**Seamless Bookings, Joyful Journeys**
 
 JourneyJoy is a modern, GUI-based train ticket booking system built using Python and Tkinter.  
 It offers a beautiful, responsive interface with real-time validation, animated receipts, and a smooth booking experience.
 
-## 🎯 Features
+### 🎯 Features :--
 
 - 👤 Passenger name input with real-time validation  
 - 🎟️ Multiple seat types with availability tracking  
@@ -16,7 +15,7 @@ It offers a beautiful, responsive interface with real-time validation, animated 
 - ✅ Input validation and error handling  
 - 🖼️ Clean and centered layout with branding and tagline  
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack :--
 
 | Area        | Tech Used            | Description                                  |
 |-------------|----------------------|----------------------------------------------|
@@ -25,16 +24,16 @@ It offers a beautiful, responsive interface with real-time validation, animated 
 | 🧠 Logic     | **Custom Python**    | Includes fare calculations, animations, etc. |
 | 🎨 Styling   | **Tkinter Widgets**  | Buttons, labels, combo boxes with custom styles |
 
-## 💰 Fare Calculation Logic
+### 💰 Fare Calculation Logic :--
 
 - Base fare = `price_per_km × distance × number_of_seats`
 - Discounts:
   - 🎁 **10% off** for 5 or more seats
-  - ✈️ **5% off** for distances over 500 km
+  - 🎁 **5% off** for distances over 500 km
 
-## 🧾 Booking Receipt
+### 🧾 Booking Receipt :--
 
-Upon successful booking, an animated window pops up showing:
+Upon successful booking, an animated window pops up showing :-
 
 - Ticket ID  
 - Passenger Name  
@@ -45,3 +44,6 @@ Upon successful booking, an animated window pops up showing:
 - Timestamp  
 
 > 🎉 "Thank you for booking with us!" message included!
+> ❤️ Made with Python and passion for clean design.
+> ✍️ Author :--
+Rama Lingeswara Rao Sivakavi
