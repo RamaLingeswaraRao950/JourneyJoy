@@ -42,9 +42,9 @@ Upon successful booking, an animated window pops up showing :-
 - Final Fare  
 - Payment Method  
 - Timestamp  
-- "Thank you for booking with us!" message included!🎉
+🎉 "Thank you for booking with us!" message included !
   
 ❤️ Made with Python and passion for clean design.
 
-> ✍️ Author :--
+✍️ Author :--
 Rama Lingeswara Rao Sivakavi
