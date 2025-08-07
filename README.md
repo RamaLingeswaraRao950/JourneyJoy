@@ -12,7 +12,8 @@ It offers a beautiful, responsive interface with real-time validation, animated 
 - 💳 Payment method selection
 - 📃 Animated booking receipt popup with details  
 - 💡 Pulsing and styled buttons for a modern feel  
-- ✅ Input validation and error handling  
+- ✅ Input validation
+- ✅ Error handling  
 - 🖼️ Clean and centered layout with branding and tagline  
 
 ### 🛠️ Tech Stack :--
@@ -33,7 +34,7 @@ It offers a beautiful, responsive interface with real-time validation, animated 
 
 ### 🧾 Booking Receipt :--
 
-Upon successful booking, an animated window pops up showing :-
+Upon successful booking, an animated window pops up showing :
 
 - Ticket ID  
 - Passenger Name  
@@ -41,10 +42,11 @@ Upon successful booking, an animated window pops up showing :-
 - Travel Distance  
 - Final Fare  
 - Payment Method  
-- Timestamp  
+- Timestamp
+ 
 🎉 "Thank you for booking with us!" message included !
   
 ❤️ Made with Python and passion for clean design.
 
-✍️ Author :--
+✍️ Author :
 Rama Lingeswara Rao Sivakavi
