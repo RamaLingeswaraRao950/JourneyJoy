@@ -1,6 +1,6 @@
 # 🚆 JourneyJoy  
 
-JourneyJoy is a modern, GUI-based train ticket booking system built using Python and Tkinter.  
+JourneyJoy is a GUI-based train ticket booking system.  
 It offers a beautiful, responsive interface with real-time validation, animated receipts, and a smooth booking experience.
 
 ### 🎯 Features :--
