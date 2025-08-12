@@ -11,9 +11,6 @@ seat_info = {
     "Luxury": {"desc": "Premium seats with meals", "price": 5, "available": 22}
 }
 
-# --- Utility functions ---
-
-
 def update_remaining_label(event=None):
     seat_type = seat_type_var.get()
     if seat_type in seat_info:
@@ -60,9 +57,6 @@ def validate_inputs(event=None):
         fare_label.config(text="")
         book_btn.config(state="disabled")
 
-# --- Pulsing Button Animation ---
-
-
 def pulse_button(button):
     scale_up = True
     size = 17  # starting font size
@@ -83,8 +77,6 @@ def pulse_button(button):
 
     animate()
 
-# --- Pill button style ---
-
 
 def make_pill_button_style(btn, bg_color, text_color="white"):
     btn.config(
@@ -99,8 +91,6 @@ def make_pill_button_style(btn, bg_color, text_color="white"):
         activebackground=bg_color,
         activeforeground=text_color
     )
-
-# --- Animated receipt ---
 
 
 def show_animated_receipt(receipt_text):
@@ -123,7 +113,6 @@ def show_animated_receipt(receipt_text):
     tk.Label(receipt_win, text=receipt_text, font=("Courier New", 10),
              bg="white", justify="left").pack(padx=10, pady=5)
 
-    # Close button with pulsing effect
     close_btn = tk.Button(receipt_win, text="Close",
                           command=receipt_win.destroy)
     make_pill_button_style(close_btn, bg_color="#2E8B57", text_color="white")
@@ -150,9 +139,6 @@ def show_animated_receipt(receipt_text):
             receipt_win.after(15, animate)
 
     animate()
-
-# --- Booking function ---
-
 
 def book_ticket():
     name = entry_name.get().strip()
@@ -200,8 +186,6 @@ def book_ticket():
     remaining_label.config(text="")
     fare_label.config(text="")
     book_btn.config(state="disabled")
-
-# --- Center window function ---
 
 
 def center_window(win, width, height):
@@ -270,7 +254,6 @@ payment_menu = ttk.Combobox(root, textvariable=payment_var,
                             state="readonly", font=("Arial", 14))
 payment_menu.pack()
 
-# Book Ticket button with pulsing effect
 book_btn = tk.Button(root, text="Book Ticket",
                      command=book_ticket, state="disabled")
 make_pill_button_style(book_btn, bg_color="#2E8B57", text_color="white")
